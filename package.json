@@ -7,11 +7,18 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "sass": "^1.99.0",
+    "tailwindcss": "^4.2.2"
   }
 }
