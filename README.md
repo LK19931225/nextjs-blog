@@ -72,3 +72,12 @@ nextjs默认支持fetch
 方式	指定方法
 服务端组件	默认行为，无需额外声明
 客户端组件	在文件顶部添加 'use client' 指令
+
+# 10. api路由
+pages/api: API 目录
+```tsx
+// req = HTTP incoming message, res = HTTP server response
+export default function handler(req, res) {
+  // ...
+}
+```
